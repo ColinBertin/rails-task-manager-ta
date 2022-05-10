@@ -1,4 +1,7 @@
 <div class="container">
   <h1>Edit task</h1>
   <%= render "form", task: @task %>
+  <%= link_to tasks_path do %>
+    <i class="fas fa-undo"> Back</i>
+  <% end %>
 </div>
